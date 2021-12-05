@@ -1,0 +1,435 @@
+Category,Film,Original_Language,Original_Title,Production_Country,Spoken_Languages,Winner,Year_Ceremony,Year_Film
+BEST PICTURE,12 Years a Slave,en,12 Years a Slave,USA,English,TRUE,2014,2013
+BEST PICTURE,12 Years a Slave,en,12 Years a Slave,England,English,TRUE,2014,2013
+BEST PICTURE,127 Hours,en,127 Hours,England,English,FALSE,2011,2010
+BEST PICTURE,127 Hours,en,127 Hours,USA,English,FALSE,2011,2010
+BEST PICTURE,A Beautiful Mind,en,A Beautiful Mind,USA,English,TRUE,2002,2001
+BEST PICTURE,A Clockwork Orange,en,A Clockwork Orange,England,English,FALSE,1972,1971
+BEST PICTURE,A Clockwork Orange,en,A Clockwork Orange,USA,English,FALSE,1972,1971
+BEST PICTURE,A Few Good Men,en,A Few Good Men,USA,English,FALSE,1993,1992
+BEST PICTURE,A Man for All Seasons,en,A Man for All Seasons,England,"English, Français,Latin, Español",TRUE,1967,1966
+BEST PICTURE,A Passage to India,en,A Passage to India,England,"English, ______",FALSE,1985,1984
+BEST PICTURE,A Passage to India,en,A Passage to India,USA,"English, ______",FALSE,1985,1984
+BEST PICTURE,A Room with a View,en,A Room with a View,England,"English, Italiano",FALSE,1987,1986
+BEST PICTURE,A Serious Man,en,A Serious Man,USA,"English, ________, ______",FALSE,2010,2009
+BEST PICTURE,A Serious Man,en,A Serious Man,England,"English, ________, ______",FALSE,2010,2009
+BEST PICTURE,A Serious Man,en,A Serious Man,France,"English, ________, ______",FALSE,2010,2009
+BEST PICTURE,A Soldier's Story,en,A Soldier's Story,USA,"English, Deutsch",FALSE,1985,1984
+BEST PICTURE,A Star Is Born,en,A Star Is Born,USA,English,FALSE,2019,2018
+BEST PICTURE,A Thousand Clowns,en,A Thousand Clowns,USA,English,FALSE,1966,1965
+BEST PICTURE,A Touch of Class,en,A Touch of Class,England,"English, Español",FALSE,1974,1973
+BEST PICTURE,Airport,en,Airport,USA,"Italiano, English",FALSE,1971,1970
+BEST PICTURE,Alfie,en,Alfie,England,English,FALSE,1967,1966
+BEST PICTURE,Alfie,en,Alfie,USA,English,FALSE,1967,1966
+BEST PICTURE,All That Jazz,en,All That Jazz,USA,English,FALSE,1980,1979
+BEST PICTURE,All the President's Men,en,All the President's Men,USA,"Español, English",FALSE,1977,1976
+BEST PICTURE,Amadeus,en,Amadeus,USA,"English, Deutsch, Italiano,Latin",TRUE,1985,1984
+BEST PICTURE,America America,en,America America,USA,English,FALSE,1964,1963
+BEST PICTURE,American Beauty,en,American Beauty,USA,English,TRUE,2000,1999
+BEST PICTURE,American Graffiti,en,American Graffiti,USA,English,FALSE,1974,1973
+BEST PICTURE,American Hustle,en,American Hustle,USA,English,FALSE,2014,2013
+BEST PICTURE,American Sniper,en,American Sniper,USA,English,FALSE,2015,2014
+BEST PICTURE,Amour,fr,Amour,France,Français,FALSE,2013,2012
+BEST PICTURE,Amour,fr,Amour,Austria,Français,FALSE,2013,2012
+BEST PICTURE,Amour,fr,Amour,Germany,Français,FALSE,2013,2012
+BEST PICTURE,An Education,en,An Education,England,English,FALSE,2010,2009
+BEST PICTURE,An Education,en,An Education,USA,English,FALSE,2010,2009
+BEST PICTURE,An Unmarried Woman,en,An Unmarried Woman,USA,English,FALSE,1979,1978
+BEST PICTURE,Anne of the Thousand Days,en,Anne of the Thousand Days,England,"English, Español",FALSE,1970,1969
+BEST PICTURE,Annie Hall,en,Annie Hall,USA,"English, Deutsch",TRUE,1978,1977
+BEST PICTURE,Apocalypse Now,en,Apocalypse Now,USA,"Khmêr, English, Français, Ti_ng Vi_t",FALSE,1980,1979
+BEST PICTURE,Apollo 13,en,Apollo 13,USA,English,FALSE,1996,1995
+BEST PICTURE,Argo,en,Argo,USA,"English, _____",TRUE,2013,2012
+BEST PICTURE,Arrival,en,Arrival,USA,"___, English, P______",FALSE,2017,2016
+BEST PICTURE,As Good as It Gets,en,As Good as It Gets,USA,English,FALSE,1998,1997
+BEST PICTURE,Atlantic City,en,Atlantic City,Canada,"English, Français",FALSE,1982,1981
+BEST PICTURE,Atlantic City,en,Atlantic City,France,"English, Français",FALSE,1982,1981
+BEST PICTURE,Atonement,en,Atonement,England,"English, Français",FALSE,2008,2007
+BEST PICTURE,Atonement,en,Atonement,France,"English, Français",FALSE,2008,2007
+BEST PICTURE,Atonement,en,Atonement,USA,"English, Français",FALSE,2008,2007
+BEST PICTURE,Avatar,en,Avatar,USA,"English, Español",FALSE,2010,2009
+BEST PICTURE,Avatar,en,Avatar,England,"English, Español",FALSE,2010,2009
+BEST PICTURE,Awakenings,en,Awakenings,USA,English,FALSE,1991,1990
+BEST PICTURE,Babe,en,Babe,Australia,English,FALSE,1996,1995
+BEST PICTURE,Babe,en,Babe,USA,English,FALSE,1996,1995
+BEST PICTURE,Babel,en,Babel,France,"_______, English, Español, Français, ___, P______",FALSE,2007,2006
+BEST PICTURE,Babel,en,Babel,Japan,"_______, English, Español, Français, ___, P______",FALSE,2007,2006
+BEST PICTURE,Babel,en,Babel,Mexico,"_______, English, Español, Français, ___, P______",FALSE,2007,2006
+BEST PICTURE,Babel,en,Babel,USA,"_______, English, Español, Français, ___, P______",FALSE,2007,2006
+BEST PICTURE,Barry Lyndon,en,Barry Lyndon,England,"Deutsch, Français, English",FALSE,1976,1975
+BEST PICTURE,Barry Lyndon,en,Barry Lyndon,USA,"Deutsch, Français, English",FALSE,1976,1975
+BEST PICTURE,Beasts of the Southern Wild,en,Beasts of the Southern Wild,USA,English,FALSE,2013,2012
+BEST PICTURE,Beauty and the Beast,en,Beauty and the Beast,USA,"Français, English",FALSE,1992,1991
+BEST PICTURE,Becket,en,Becket,England,"English,Latin, Cymrae",FALSE,1965,1964
+BEST PICTURE,Becket,en,Becket,USA,"English,Latin, Cymrae",FALSE,1965,1964
+BEST PICTURE,Black Swan,en,Black Swan,USA,"English, Français, Italiano",FALSE,2011,2010
+BEST PICTURE,Bonnie and Clyde,en,Bonnie and Clyde,USA,English,FALSE,1968,1967
+BEST PICTURE,Born on the Fourth of July,en,Born on the Fourth of July,USA,"English, Español",FALSE,1990,1989
+BEST PICTURE,Bound for Glory,en,Bound for Glory,USA,English,FALSE,1977,1976
+BEST PICTURE,Boyhood,en,Boyhood,USA,"Español, English",FALSE,2015,2014
+BEST PICTURE,Braveheart,en,Braveheart,USA,"English, Français,Latin, Gàidhlig",TRUE,1996,1995
+BEST PICTURE,Breaking Away,en,Breaking Away,USA,English,FALSE,1980,1979
+BEST PICTURE,Bridge of Spies,en,Bridge of Spies,India,"P______, English, Deutsch",FALSE,2016,2015
+BEST PICTURE,Bridge of Spies,en,Bridge of Spies,USA,"P______, English, Deutsch",FALSE,2016,2015
+BEST PICTURE,Bridge of Spies,en,Bridge of Spies,Germany,"P______, English, Deutsch",FALSE,2016,2015
+BEST PICTURE,Broadcast News,en,Broadcast News,USA,English,FALSE,1988,1987
+BEST PICTURE,Brokeback Mountain,en,Brokeback Mountain,Canada,English,FALSE,2006,2005
+BEST PICTURE,Brokeback Mountain,en,Brokeback Mountain,USA,English,FALSE,2006,2005
+BEST PICTURE,Brooklyn,en,Brooklyn,Canada,English,FALSE,2016,2015
+BEST PICTURE,Brooklyn,en,Brooklyn,Ireland,English,FALSE,2016,2015
+BEST PICTURE,Bugsy,en,Bugsy,USA,English,FALSE,1992,1991
+BEST PICTURE,Butch Cassidy and the Sundance Kid,en,Butch Cassidy and the Sundance Kid,USA,"English, Español",FALSE,1970,1969
+BEST PICTURE,Cabaret,en,Cabaret,USA,"English, Français, Deutsch, ________",FALSE,1973,1972
+BEST PICTURE,Call Me by Your Name,en,Call Me by Your Name,Brazil,"Français, English, Italiano",FALSE,2018,2017
+BEST PICTURE,Call Me by Your Name,en,Call Me by Your Name,France,"Français, English, Italiano",FALSE,2018,2017
+BEST PICTURE,Call Me by Your Name,en,Call Me by Your Name,Italy,"Français, English, Italiano",FALSE,2018,2017
+BEST PICTURE,Call Me by Your Name,en,Call Me by Your Name,USA,"Français, English, Italiano",FALSE,2018,2017
+BEST PICTURE,Capote,en,Capote,Canada,English,FALSE,2006,2005
+BEST PICTURE,Capote,en,Capote,USA,English,FALSE,2006,2005
+BEST PICTURE,Captain Phillips,en,Captain Phillips,USA,"English, Somali",FALSE,2014,2013
+BEST PICTURE,Chariots of Fire,en,Chariots of Fire,England,"English, Français",TRUE,1982,1981
+BEST PICTURE,Chicago,en,Chicago,USA,"Magyar, English",TRUE,2003,2002
+BEST PICTURE,Children of a Lesser God,en,Children of a Lesser God,USA,"_esk_, English",FALSE,1987,1986
+BEST PICTURE,Chinatown,en,Chinatown,USA,"Español, ___, English",FALSE,1975,1974
+BEST PICTURE,Chocolat,en,Chocolat,England,"English, Français",FALSE,2001,2000
+BEST PICTURE,Chocolat,en,Chocolat,USA,"English, Français",FALSE,2001,2000
+BEST PICTURE,Cleopatra,en,Cleopatra,England,"English, Português",FALSE,1964,1963
+BEST PICTURE,Cleopatra,en,Cleopatra,USA,"English, Português",FALSE,1964,1963
+BEST PICTURE,Cleopatra,en,Cleopatra,Switzerland,"English, Português",FALSE,1964,1963
+BEST PICTURE,Coal Miner's Daughter,en,Coal Miner's Daughter,USA,English,FALSE,1981,1980
+BEST PICTURE,Coming Home,en,Coming Home,USA,English,FALSE,1979,1978
+BEST PICTURE,Crash,en,Crash,Canada,"English, svenska",TRUE,2006,2005
+BEST PICTURE,Crash,en,Crash,Germany,"English, _____, Español, ___, ___",TRUE,2006,2005
+BEST PICTURE,Crash,en,Crash,USA,"English, _____, Español, ___, ___",TRUE,2006,2005
+BEST PICTURE,Cries and Whispers,sv,Viskningar och rop,Sweden,svenska,FALSE,1974,1973
+BEST PICTURE,"Crouching Tiger, Hidden Dragon",zh,____,China,___,FALSE,2001,2000
+BEST PICTURE,"Crouching Tiger, Hidden Dragon",zh,____,Hong Kong,___,FALSE,2001,2000
+BEST PICTURE,"Crouching Tiger, Hidden Dragon",zh,____,Taiwan,___,FALSE,2001,2000
+BEST PICTURE,"Crouching Tiger, Hidden Dragon",zh,____,USA,___,FALSE,2001,2000
+BEST PICTURE,Dallas Buyers Club,en,Dallas Buyers Club,USA,"English, ___",FALSE,2014,2013
+BEST PICTURE,Dangerous Liaisons,en,Dangerous Liaisons,England,English,FALSE,1989,1988
+BEST PICTURE,Dangerous Liaisons,en,Dangerous Liaisons,USA,English,FALSE,1989,1988
+BEST PICTURE,Darling,en,Darling,England,English,FALSE,1966,1965
+BEST PICTURE,Dead Poets Society,en,Dead Poets Society,USA,English,FALSE,1990,1989
+BEST PICTURE,Deliverance,en,Deliverance,USA,English,FALSE,1973,1972
+BEST PICTURE,District 9,en,District 9,USA,"Afrikaans, chiChe_a, Sesotho, isiXhosa, isiZulu, English",FALSE,2010,2009
+BEST PICTURE,District 9,en,District 9,New Zealand,"Afrikaans, chiChe_a, Sesotho, isiXhosa, isiZulu, English",FALSE,2010,2009
+BEST PICTURE,District 9,en,District 9,Canada,"Afrikaans, chiChe_a, Sesotho, isiXhosa, isiZulu, English",FALSE,2010,2009
+BEST PICTURE,District 9,en,District 9,South Africa,"Afrikaans, chiChe_a, Sesotho, isiXhosa, isiZulu, English",FALSE,2010,2009
+BEST PICTURE,Django Unchained,en,Django Unchained,USA,"English, Français, Deutsch",FALSE,2013,2012
+BEST PICTURE,Doctor Dolittle,en,Doctor Dolittle,USA,English,FALSE,1968,1967
+BEST PICTURE,Doctor Zhivago,en,Doctor Zhivago,Italy,"English, P______",FALSE,1966,1965
+BEST PICTURE,Doctor Zhivago,en,Doctor Zhivago,USA,"English, P______",FALSE,1966,1965
+BEST PICTURE,Dog Day Afternoon,en,Dog Day Afternoon,USA,English,FALSE,1976,1975
+BEST PICTURE,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,en,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,England,English,FALSE,1965,1964
+BEST PICTURE,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,en,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,USA,English,FALSE,1965,1964
+BEST PICTURE,Driving Miss Daisy,en,Driving Miss Daisy,USA,"English, Magyar, Polski",TRUE,1990,1989
+BEST PICTURE,Dunkirk,en,Dunkirk,Netherlands,"English, Français, Deutsch",FALSE,2018,2017
+BEST PICTURE,Dunkirk,en,Dunkirk,France,"English, Français, Deutsch",FALSE,2018,2017
+BEST PICTURE,Dunkirk,en,Dunkirk,England,"English, Français, Deutsch",FALSE,2018,2017
+BEST PICTURE,Dunkirk,en,Dunkirk,USA,"English, Français, Deutsch",FALSE,2018,2017
+BEST PICTURE,Elizabeth,en,Elizabeth,USA,"Français, English",FALSE,1999,1998
+BEST PICTURE,Erin Brockovich,en,Erin Brockovich,USA,"English, Français",FALSE,2001,2000
+BEST PICTURE,Extremely Loud & Incredibly Close,en,Extremely Loud & Incredibly Close,USA,English,FALSE,2012,2011
+BEST PICTURE,Fargo,en,Fargo,USA,English,FALSE,1997,1996
+BEST PICTURE,Fatal Attraction,en,Fatal Attraction,USA,English,FALSE,1988,1987
+BEST PICTURE,Fences,en,Fences,USA,English,FALSE,2017,2016
+BEST PICTURE,Fiddler on the Roof,en,Fiddler on the Roof,USA,"English, ________, P______",FALSE,1972,1971
+BEST PICTURE,Field of Dreams,en,Field of Dreams,USA,English,FALSE,1990,1989
+BEST PICTURE,Finding Neverland,en,Finding Neverland,England,English,FALSE,2005,2004
+BEST PICTURE,Finding Neverland,en,Finding Neverland,USA,English,FALSE,2005,2004
+BEST PICTURE,Five Easy Pieces,en,Five Easy Pieces,USA,English,FALSE,1971,1970
+BEST PICTURE,Forrest Gump,en,Forrest Gump,USA,English,TRUE,1995,1994
+BEST PICTURE,Four Weddings and a Funeral,en,Four Weddings and a Funeral,England,English,FALSE,1995,1994
+BEST PICTURE,Frost/Nixon,en,Frost/Nixon,USA,"English, Español",FALSE,2009,2008
+BEST PICTURE,Funny Girl,en,Funny Girl,USA,English,FALSE,1969,1968
+BEST PICTURE,Gandhi,en,Gandhi,India,"English, ______",TRUE,1983,1982
+BEST PICTURE,Gandhi,en,Gandhi,England,"English, ______",TRUE,1983,1982
+BEST PICTURE,Gangs of New York,en,Gangs of New York,USA,"English, Gaeilge,Latin, ___",FALSE,2003,2002
+BEST PICTURE,Gangs of New York,en,Gangs of New York,Italy,"English, Gaeilge,Latin, ___",FALSE,2003,2002
+BEST PICTURE,Get Out,en,Get Out,USA,English,FALSE,2018,2017
+BEST PICTURE,Get Out,en,Get Out,France,Français,FALSE,2018,2017
+BEST PICTURE,Ghost,en,Ghost,USA,English,FALSE,1991,1990
+BEST PICTURE,Gladiator,en,Gladiator,England,English,TRUE,2001,2000
+BEST PICTURE,Gladiator,en,Gladiator,USA,English,TRUE,2001,2000
+BEST PICTURE,"Good Night, and Good Luck.",en,"Good Night, and Good Luck.",France,English,FALSE,2006,2005
+BEST PICTURE,"Good Night, and Good Luck.",en,"Good Night, and Good Luck.",Japan,English,FALSE,2006,2005
+BEST PICTURE,"Good Night, and Good Luck.",en,"Good Night, and Good Luck.",England,English,FALSE,2006,2005
+BEST PICTURE,"Good Night, and Good Luck.",en,"Good Night, and Good Luck.",USA,English,FALSE,2006,2005
+BEST PICTURE,Good Will Hunting,en,Good Will Hunting,Canada,English,FALSE,1998,1997
+BEST PICTURE,Good Will Hunting,en,Good Will Hunting,USA,English,FALSE,1998,1997
+BEST PICTURE,Gosford Park,en,Gosford Park,Germany,English,FALSE,2002,2001
+BEST PICTURE,Gosford Park,en,Gosford Park,England,English,FALSE,2002,2001
+BEST PICTURE,Gosford Park,en,Gosford Park,USA,English,FALSE,2002,2001
+BEST PICTURE,Gravity,en,Gravity,England,English,FALSE,2014,2013
+BEST PICTURE,Gravity,en,Gravity,USA,English,FALSE,2014,2013
+BEST PICTURE,Guess Who's Coming to Dinner,en,Guess Who's Coming to Dinner,USA,English,FALSE,1968,1967
+BEST PICTURE,Hacksaw Ridge,en,Hacksaw Ridge,Australia,"___, English",FALSE,2017,2016
+BEST PICTURE,Hacksaw Ridge,en,Hacksaw Ridge,USA,"___, English",FALSE,2017,2016
+BEST PICTURE,Hannah and Her Sisters,en,Hannah and Her Sisters,USA,English,FALSE,1987,1986
+BEST PICTURE,Heaven Can Wait,en,Heaven Can Wait,USA,"English, Español",FALSE,1979,1978
+BEST PICTURE,Heaven Can Wait,en,Heaven Can Wait,USA,"English, Français",FALSE,1979,1978
+BEST PICTURE,Hell or High Water,en,Hell or High Water,USA,English,FALSE,2017,2016
+BEST PICTURE,"Hello, Dolly!",en,"Hello, Dolly!",USA,English,FALSE,1970,1969
+BEST PICTURE,Her,en,Her,USA,English,FALSE,2014,2013
+BEST PICTURE,Hidden Figures,en,Hidden Figures,USA,English,FALSE,2017,2016
+BEST PICTURE,Hope and Glory,en,Hope and Glory,England,English,FALSE,1988,1987
+BEST PICTURE,Hope and Glory,en,Hope and Glory,USA,English,FALSE,1988,1987
+BEST PICTURE,How the West Was Won,en,How the West Was Won,USA,"English, Español",FALSE,1964,1963
+BEST PICTURE,Howards End,en,Howards End,England,"English, Deutsch",FALSE,1993,1992
+BEST PICTURE,Hugo,en,Hugo,France,English,FALSE,2012,2011
+BEST PICTURE,Hugo,en,Hugo,USA,English,FALSE,2012,2011
+BEST PICTURE,Hugo,en,Hugo,England,English,FALSE,2012,2011
+BEST PICTURE,In the Bedroom,en,In the Bedroom,USA,"Serbo-Croatian, English",FALSE,2002,2001
+BEST PICTURE,In the Heat of the Night,en,In the Heat of the Night,USA,English,TRUE,1968,1967
+BEST PICTURE,In the Name of the Father,en,In the Name of the Father,England,English,FALSE,1994,1993
+BEST PICTURE,In the Name of the Father,en,In the Name of the Father,Ireland,English,FALSE,1994,1993
+BEST PICTURE,Inception,en,Inception,England,English,FALSE,2011,2010
+BEST PICTURE,Inception,en,Inception,USA,English,FALSE,2011,2010
+BEST PICTURE,Inglourious Basterds,en,Inglourious Basterds,Germany,"Deutsch, English, Français, Italiano",FALSE,2010,2009
+BEST PICTURE,Inglourious Basterds,en,Inglourious Basterds,USA,"Deutsch, English, Français, Italiano",FALSE,2010,2009
+BEST PICTURE,Jaws,en,Jaws,USA,English,FALSE,1976,1975
+BEST PICTURE,Jerry Maguire,en,Jerry Maguire,USA,"English, Polski",FALSE,1997,1996
+BEST PICTURE,JFK,en,JFK,USA,"English, Español",FALSE,1992,1991
+BEST PICTURE,Joker,en,Joker,USA,English,FALSE,2020,2019
+BEST PICTURE,Julia,en,Julia,USA,"English, Français, Deutsch, P______",FALSE,1978,1977
+BEST PICTURE,Julia,en,Julia,France,"English, Español",FALSE,1978,1977
+BEST PICTURE,Julia,en,Julia,USA,English,FALSE,1978,1977
+BEST PICTURE,Juno,en,Juno,USA,English,FALSE,2008,2007
+BEST PICTURE,Kiss of the Spider Woman,en,Kiss of the Spider Woman,Brazil,Português,FALSE,1986,1985
+BEST PICTURE,Kiss of the Spider Woman,en,Kiss of the Spider Woman,USA,Português,FALSE,1986,1985
+BEST PICTURE,Kramer vs. Kramer,en,Kramer vs. Kramer,USA,English,TRUE,1980,1979
+BEST PICTURE,L.A. Confidential,en,L.A. Confidential,USA,English,FALSE,1998,1997
+BEST PICTURE,La La Land,en,La La Land,USA,English,FALSE,2017,2016
+BEST PICTURE,Lawrence of Arabia,en,Lawrence of Arabia,England,"_______, English, Türkçe",TRUE,1963,1962
+BEST PICTURE,Lenny,en,Lenny,USA,English,FALSE,1975,1974
+BEST PICTURE,Letters from Iwo Jima,en,Letters from Iwo Jima,Japan,"English, ___",FALSE,2007,2006
+BEST PICTURE,Letters from Iwo Jima,en,Letters from Iwo Jima,USA,"English, ___",FALSE,2007,2006
+BEST PICTURE,Life Is Beautiful,it,La vita è bella,Italy,"English, Deutsch, Italiano",FALSE,1999,1998
+BEST PICTURE,Life of Pi,en,Life of Pi,USA,"English, Français, ______, ___, ___, _____",FALSE,2013,2012
+BEST PICTURE,Life of Pi,en,Life of Pi,Taiwan,"English, Français, ______, ___, ___, _____",FALSE,2013,2012
+BEST PICTURE,Life of Pi,en,Life of Pi,England,"English, Français, ______, ___, ___, _____",FALSE,2013,2012
+BEST PICTURE,Lilies of the Field,en,Lilies of the Field,USA,English,FALSE,1964,1963
+BEST PICTURE,Lincoln,en,Lincoln,India,English,FALSE,2013,2012
+BEST PICTURE,Lincoln,en,Lincoln,USA,English,FALSE,2013,2012
+BEST PICTURE,Lion,en,Lion,Australia,"_____, English, ______",FALSE,2017,2016
+BEST PICTURE,Lion,en,Lion,England,"_____, English, ______",FALSE,2017,2016
+BEST PICTURE,Lion,en,Lion,USA,"_____, English, ______",FALSE,2017,2016
+BEST PICTURE,Little Miss Sunshine,en,Little Miss Sunshine,USA,English,FALSE,2007,2006
+BEST PICTURE,Little Women,en,Little Women,USA,English,FALSE,2020,2019
+BEST PICTURE,Lost in Translation,en,Lost in Translation,Japan,"___, English",FALSE,2004,2003
+BEST PICTURE,Lost in Translation,en,Lost in Translation,USA,"___, English",FALSE,2004,2003
+BEST PICTURE,Love Story,en,Love Story,USA,"English, Español",FALSE,1971,1970
+BEST PICTURE,M*A*S*H,en,M*A*S*H,USA,"English, Français, ___, ___",FALSE,1971,1970
+BEST PICTURE,Mad Max: Fury Road,en,Mad Max: Fury Road,Australia,English,FALSE,2016,2015
+BEST PICTURE,Mad Max: Fury Road,en,Mad Max: Fury Road,USA,English,FALSE,2016,2015
+BEST PICTURE,Manchester by the Sea,en,Manchester by the Sea,USA,English,FALSE,2017,2016
+BEST PICTURE,Mary Poppins,en,Mary Poppins,USA,English,FALSE,1965,1964
+BEST PICTURE,Master and Commander: The Far Side of the World,en,Master and Commander: The Far Side of the World,USA,"Français, Português, English",FALSE,2004,2003
+BEST PICTURE,Michael Clayton,en,Michael Clayton,USA,English,FALSE,2008,2007
+BEST PICTURE,Midnight Cowboy,en,Midnight Cowboy,USA,"English, Italiano",TRUE,1970,1969
+BEST PICTURE,Midnight Express,en,Midnight Express,England,"English, Malti, Français",FALSE,1979,1978
+BEST PICTURE,Midnight Express,en,Midnight Express,USA,"English, Malti, Français",FALSE,1979,1978
+BEST PICTURE,Midnight in Paris,en,Midnight in Paris,Spain,"English, Français, Deutsch, Español",FALSE,2012,2011
+BEST PICTURE,Midnight in Paris,en,Midnight in Paris,USA,"English, Français, Deutsch, Español",FALSE,2012,2011
+BEST PICTURE,Milk,en,Milk,USA,English,FALSE,2009,2008
+BEST PICTURE,Million Dollar Baby,en,Million Dollar Baby,USA,"English, Gaeilge",TRUE,2005,2004
+BEST PICTURE,Missing,en,Missing,USA,"English, Español",FALSE,1983,1982
+BEST PICTURE,Mississippi Burning,en,Mississippi Burning,USA,English,FALSE,1989,1988
+BEST PICTURE,Moneyball,en,Moneyball,USA,English,FALSE,2012,2011
+BEST PICTURE,Moonlight,en,Moonlight,USA,English,TRUE,2017,2016
+BEST PICTURE,Moonstruck,en,Moonstruck,USA,English,FALSE,1988,1987
+BEST PICTURE,Moulin Rouge,en,Moulin Rouge,England,English,FALSE,2002,2001
+BEST PICTURE,Munich,en,Munich,Canada,"_______, Deutsch, ________, English, Français, ________, Italiano, P______",FALSE,2006,2005
+BEST PICTURE,Munich,en,Munich,USA,"_______, Deutsch, ________, English, Français, ________, Italiano, P______",FALSE,2006,2005
+BEST PICTURE,Munich,en,Munich,France,"_______, Deutsch, ________, English, Français, ________, Italiano, P______",FALSE,2006,2005
+BEST PICTURE,Mutiny on the Bounty,en,Mutiny on the Bounty,USA,English,FALSE,1963,1962
+BEST PICTURE,My Fair Lady,en,My Fair Lady,USA,English,TRUE,1965,1964
+BEST PICTURE,Mystic River,en,Mystic River,USA,English,FALSE,2004,2003
+BEST PICTURE,Nashville,en,Nashville,USA,English,FALSE,1976,1975
+BEST PICTURE,Nebraska,en,Nebraska,USA,"English, Español",FALSE,2014,2013
+BEST PICTURE,Network,en,Network,USA,"English, Deutsch",FALSE,1977,1976
+BEST PICTURE,Nicholas and Alexandra,en,Nicholas and Alexandra,England,"English, Français, Deutsch, P______, Español",FALSE,1972,1971
+BEST PICTURE,No Country for Old Men,en,No Country for Old Men,USA,"English, Español",TRUE,2008,2007
+BEST PICTURE,Norma Rae,en,Norma Rae,USA,English,FALSE,1980,1979
+BEST PICTURE,Oliver!,en,Oliver!,England,English,TRUE,1969,1968
+BEST PICTURE,On Golden Pond,en,On Golden Pond,USA,English,FALSE,1982,1981
+BEST PICTURE,Ordinary People,en,Ordinary People,USA,English,TRUE,1981,1980
+BEST PICTURE,Out of Africa,en,Out of Africa,USA,"English, Kiswahili",TRUE,1986,1985
+BEST PICTURE,Parasite,ko,___,South Korea,ko,TRUE,2020,2019
+BEST PICTURE,Patton,en,Patton,USA,English,TRUE,1971,1970
+BEST PICTURE,Philomena,en,Philomena,England,English,FALSE,2014,2013
+BEST PICTURE,Places in the Heart,en,Places in the Heart,USA,English,FALSE,1985,1984
+BEST PICTURE,Platoon,en,Platoon,England,"English, Ti_ng Vi_t",TRUE,1987,1986
+BEST PICTURE,Platoon,en,Platoon,USA,"English, Ti_ng Vi_t",TRUE,1987,1986
+BEST PICTURE,Prizzi's Honor,en,Prizzi's Honor,USA,English,FALSE,1986,1985
+BEST PICTURE,Pulp Fiction,en,Pulp Fiction,USA,"English, Español, Français",FALSE,1995,1994
+BEST PICTURE,Quiz Show,en,Quiz Show,USA,English,FALSE,1995,1994
+BEST PICTURE,"Rachel, Rachel",en,"Rachel, Rachel",USA,English,FALSE,1969,1968
+BEST PICTURE,Raging Bull,en,Raging Bull,USA,English,FALSE,1981,1980
+BEST PICTURE,Raiders of the Lost Ark,en,Raiders of the Lost Ark,USA,"English, Español, Deutsch, ________, _______, ______",FALSE,1982,1981
+BEST PICTURE,Rain Man,en,Rain Man,USA,"Italiano, English",TRUE,1989,1988
+BEST PICTURE,Ray,en,Ray,USA,English,FALSE,2005,2004
+BEST PICTURE,Reds,en,Reds,USA,"Deutsch, suomi, Français, P______, English",FALSE,1982,1981
+BEST PICTURE,Rocky,en,Rocky,USA,English,TRUE,1977,1976
+BEST PICTURE,Roma,es,Roma,Mexico,Español,FALSE,2019,2018
+BEST PICTURE,Roma,es,Roma,Argentina,Español,FALSE,2019,2018
+BEST PICTURE,Roma,es,Roma,USA,Español,FALSE,2019,2018
+BEST PICTURE,Romeo and Juliet,en,Romeo and Juliet,Italy,"English, Italiano",FALSE,1969,1968
+BEST PICTURE,Romeo and Juliet,en,Romeo and Juliet,England,"English, Italiano",FALSE,1969,1968
+BEST PICTURE,Romeo and Juliet,en,Romeo and Juliet,USA,English,FALSE,1969,1968
+BEST PICTURE,Room,en,Room,Canada,English,FALSE,2016,2015
+BEST PICTURE,Room,en,Room,Ireland,English,FALSE,2016,2015
+BEST PICTURE,Room,en,Room,USA,English,FALSE,2016,2015
+BEST PICTURE,Room,en,Room,England,English,FALSE,2016,2015
+BEST PICTURE,Saving Private Ryan,en,Saving Private Ryan,USA,"_esk_, Deutsch, English, Français",FALSE,1999,1998
+BEST PICTURE,Scent of a Woman,en,Scent of a Woman,USA,English,FALSE,1993,1992
+BEST PICTURE,Schindler's List,en,Schindler's List,USA,"Deutsch, Polski, ________, English",TRUE,1994,1993
+BEST PICTURE,Seabiscuit,en,Seabiscuit,USA,English,FALSE,2004,2003
+BEST PICTURE,Secrets & Lies,en,Secrets & Lies,England,English,FALSE,1997,1996
+BEST PICTURE,Secrets & Lies,en,Secrets & Lies,France,English,FALSE,1997,1996
+BEST PICTURE,Selma,en,Selma,England,English,FALSE,2015,2014
+BEST PICTURE,Selma,en,Selma,USA,English,FALSE,2015,2014
+BEST PICTURE,Sense and Sensibility,en,Sense and Sensibility,England,English,FALSE,1996,1995
+BEST PICTURE,Sense and Sensibility,en,Sense and Sensibility,USA,English,FALSE,1996,1995
+BEST PICTURE,Shakespeare in Love,en,Shakespeare in Love,USA,English,TRUE,1999,1998
+BEST PICTURE,Shine,en,Shine,Australia,"English, ______",FALSE,1997,1996
+BEST PICTURE,Ship of Fools,en,Ship of Fools,USA,"English, Deutsch, Español",FALSE,1966,1965
+BEST PICTURE,Sideways,en,Sideways,USA,"_______, English",FALSE,2005,2004
+BEST PICTURE,Silver Linings Playbook,en,Silver Linings Playbook,USA,English,FALSE,2013,2012
+BEST PICTURE,Slumdog Millionaire,en,Slumdog Millionaire,England,English,TRUE,2009,2008
+BEST PICTURE,Sounder,en,Sounder,USA,English,FALSE,1973,1972
+BEST PICTURE,Spotlight,en,Spotlight,Canada,English,TRUE,2016,2015
+BEST PICTURE,Spotlight,en,Spotlight,USA,English,TRUE,2016,2015
+BEST PICTURE,Star Wars,en,Star Wars,USA,English,FALSE,1978,1977
+BEST PICTURE,Taxi Driver,en,Taxi Driver,USA,"English, Español",FALSE,1977,1976
+BEST PICTURE,Tender Mercies,en,Tender Mercies,USA,English,FALSE,1984,1983
+BEST PICTURE,Terms of Endearment,en,Terms of Endearment,USA,English,TRUE,1984,1983
+BEST PICTURE,Tess,en,Tess,France,English,FALSE,1981,1980
+BEST PICTURE,Tess,en,Tess,England,English,FALSE,1981,1980
+BEST PICTURE,The Accidental Tourist,en,The Accidental Tourist,USA,English,FALSE,1989,1988
+BEST PICTURE,The Artist,en,The Artist,Belgium,Français,TRUE,2012,2011
+BEST PICTURE,The Artist,en,The Artist,France,Français,TRUE,2012,2011
+BEST PICTURE,The Artist,es,El artista,Argentina,Español,TRUE,2012,2011
+BEST PICTURE,The Artist,es,El artista,Italy,Español,TRUE,2012,2011
+BEST PICTURE,The Aviator,en,The Aviator,USA,English,FALSE,2005,2004
+BEST PICTURE,The Aviator,en,The Aviator,USA,English,FALSE,2005,2004
+BEST PICTURE,The Big Chill,en,The Big Chill,USA,English,FALSE,1984,1983
+BEST PICTURE,The Big Short,en,The Big Short,USA,English,FALSE,2016,2015
+BEST PICTURE,The Blind Side,en,The Blind Side,USA,English,FALSE,2010,2009
+BEST PICTURE,The Cider House Rules,en,The Cider House Rules,USA,English,FALSE,2000,1999
+BEST PICTURE,The Color Purple,en,The Color Purple,USA,English,FALSE,1986,1985
+BEST PICTURE,The Conversation,en,The Conversation,USA,English,FALSE,1975,1974
+BEST PICTURE,The Crying Game,en,The Crying Game,Japan,English,FALSE,1993,1992
+BEST PICTURE,The Crying Game,en,The Crying Game,England,English,FALSE,1993,1992
+BEST PICTURE,The Crying Game,en,The Crying Game,Ireland,English,FALSE,1993,1992
+BEST PICTURE,The Curious Case of Benjamin Button,en,The Curious Case of Benjamin Button,USA,English,FALSE,2009,2008
+BEST PICTURE,The Deer Hunter,en,The Deer Hunter,England,"English, Français, P______, Ti_ng Vi_t",TRUE,1979,1978
+BEST PICTURE,The Deer Hunter,en,The Deer Hunter,USA,"English, Français, P______, Ti_ng Vi_t",TRUE,1979,1978
+BEST PICTURE,The Departed,en,The Departed,Hong Kong,"English, ___",TRUE,2007,2006
+BEST PICTURE,The Departed,en,The Departed,USA,"English, ___",TRUE,2007,2006
+BEST PICTURE,The Descendants,en,The Descendants,USA,English,FALSE,2012,2011
+BEST PICTURE,The Dresser,en,The Dresser,England,English,FALSE,1984,1983
+BEST PICTURE,The Elephant Man,en,The Elephant Man,England,English,FALSE,1981,1980
+BEST PICTURE,The Elephant Man,en,The Elephant Man,USA,English,FALSE,1981,1980
+BEST PICTURE,The Emigrants,sv,Utvandrarna,Sweden,svenska,FALSE,1973,1972
+BEST PICTURE,The English Patient,en,The English Patient,England,"Deutsch, Italiano, _______, English",TRUE,1997,1996
+BEST PICTURE,The English Patient,en,The English Patient,USA,"Deutsch, Italiano, _______, English",TRUE,1997,1996
+BEST PICTURE,The Exorcist,en,The Exorcist,USA,"Deutsch, Français,Latin, _______, ________, English",FALSE,1974,1973
+BEST PICTURE,The Fighter,en,The Fighter,USA,English,FALSE,2011,2010
+BEST PICTURE,The French Connection,en,The French Connection,USA,"English, Français",TRUE,1972,1971
+BEST PICTURE,The Fugitive,en,The Fugitive,USA,English,FALSE,1994,1993
+BEST PICTURE,The Fugitive,en,The Fugitive,Mexico,English,FALSE,1994,1993
+BEST PICTURE,The Full Monty,en,The Full Monty,England,English,FALSE,1998,1997
+BEST PICTURE,The Godfather,en,The Godfather,USA,"English, Italiano,Latin",TRUE,1973,1972
+BEST PICTURE,The Goodbye Girl,en,The Goodbye Girl,USA,English,FALSE,1978,1977
+BEST PICTURE,The Graduate,en,The Graduate,USA,English,FALSE,1968,1967
+BEST PICTURE,The Grand Budapest Hotel,en,The Grand Budapest Hotel,England,"English, Français",FALSE,2015,2014
+BEST PICTURE,The Grand Budapest Hotel,en,The Grand Budapest Hotel,USA,"English, Français",FALSE,2015,2014
+BEST PICTURE,The Grand Budapest Hotel,en,The Grand Budapest Hotel,Germany,"English, Français",FALSE,2015,2014
+BEST PICTURE,The Green Mile,en,The Green Mile,USA,"Français, English",FALSE,2000,1999
+BEST PICTURE,The Help,en,The Help,India,English,FALSE,2012,2011
+BEST PICTURE,The Help,en,The Help,United Arab Emirates,English,FALSE,2012,2011
+BEST PICTURE,The Help,en,The Help,USA,English,FALSE,2012,2011
+BEST PICTURE,The Hours,en,The Hours,USA,English,FALSE,2003,2002
+BEST PICTURE,The Hurt Locker,en,The Hurt Locker,USA,"English, _______, Türkçe",TRUE,2010,2009
+BEST PICTURE,The Imitation Game,en,The Imitation Game,England,English,FALSE,2015,2014
+BEST PICTURE,The Insider,en,The Insider,USA,"_______, English, ___, _____",FALSE,2000,1999
+BEST PICTURE,The Kids Are All Right,en,The Kids Are All Right,USA,English,FALSE,2011,2010
+BEST PICTURE,The Killing Fields,en,The Killing Fields,England,"Português, English, Français, Magyar, Khmêr",FALSE,1985,1984
+BEST PICTURE,The King's Speech,en,The King's Speech,England,English,TRUE,2011,2010
+BEST PICTURE,The Last Emperor,en,The Last Emperor,France,"_esk_, English, ___, ___, P______",TRUE,1988,1987
+BEST PICTURE,The Last Emperor,en,The Last Emperor,China,"_esk_, English, ___, ___, P______",TRUE,1988,1987
+BEST PICTURE,The Last Emperor,en,The Last Emperor,England,"_esk_, English, ___, ___, P______",TRUE,1988,1987
+BEST PICTURE,The Last Emperor,en,The Last Emperor,Italy,"_esk_, English, ___, ___, P______",TRUE,1988,1987
+BEST PICTURE,The Last Picture Show,en,The Last Picture Show,USA,English,FALSE,1972,1971
+BEST PICTURE,The Lion in Winter,en,The Lion in Winter,England,English,FALSE,1969,1968
+BEST PICTURE,The Longest Day,en,The Longest Day,USA,"English, Français, Deutsch",FALSE,1963,1962
+BEST PICTURE,The Lord of the Rings: The Fellowship of the Ring,en,The Lord of the Rings: The Fellowship of the Ring,New Zealand,English,FALSE,2002,2001
+BEST PICTURE,The Lord of the Rings: The Fellowship of the Ring,en,The Lord of the Rings: The Fellowship of the Ring,USA,English,FALSE,2002,2001
+BEST PICTURE,The Lord of the Rings: The Return of the King,en,The Lord of the Rings: The Return of the King,New Zealand,English,TRUE,2004,2003
+BEST PICTURE,The Lord of the Rings: The Return of the King,en,The Lord of the Rings: The Return of the King,USA,English,TRUE,2004,2003
+BEST PICTURE,The Lord of the Rings: The Two Towers,en,The Lord of the Rings: The Two Towers,New Zealand,English,FALSE,2003,2002
+BEST PICTURE,The Lord of the Rings: The Two Towers,en,The Lord of the Rings: The Two Towers,USA,English,FALSE,2003,2002
+BEST PICTURE,The Martian,en,The Martian,USA,"English, ___",FALSE,2016,2015
+BEST PICTURE,The Mission,en,The Mission,France,"English, Guaraní,Latin, Español",FALSE,1987,1986
+BEST PICTURE,The Mission,en,The Mission,England,"English, Guaraní,Latin, Español",FALSE,1987,1986
+BEST PICTURE,The Pianist,en,The Pianist,France,"English, Deutsch, P______",FALSE,2003,2002
+BEST PICTURE,The Pianist,en,The Pianist,Germany,"English, Deutsch, P______",FALSE,2003,2002
+BEST PICTURE,The Pianist,en,The Pianist,Poland,"English, Deutsch, P______",FALSE,2003,2002
+BEST PICTURE,The Pianist,en,The Pianist,England,"English, Deutsch, P______",FALSE,2003,2002
+BEST PICTURE,The Piano,en,The Piano,New Zealand,"English, M_ori",FALSE,1994,1993
+BEST PICTURE,The Piano,en,The Piano,Australia,"English, M_ori",FALSE,1994,1993
+BEST PICTURE,The Piano,en,The Piano,France,"English, M_ori",FALSE,1994,1993
+BEST PICTURE,The Prince of Tides,en,The Prince of Tides,USA,English,FALSE,1992,1991
+BEST PICTURE,The Queen,en,The Queen,France,"Deutsch, English, Français",FALSE,2007,2006
+BEST PICTURE,The Queen,en,The Queen,Italy,"Deutsch, English, Français",FALSE,2007,2006
+BEST PICTURE,The Queen,en,The Queen,England,"Deutsch, English, Français",FALSE,2007,2006
+BEST PICTURE,The Queen,en,The Queen,USA,"Deutsch, English, Français",FALSE,2007,2006
+BEST PICTURE,The Queen,en,The Queen,USA,English,FALSE,2007,2006
+BEST PICTURE,The Reader,en,The Reader,Germany,"English, Deutsch, ________,Latin",FALSE,2009,2008
+BEST PICTURE,The Reader,en,The Reader,USA,"English, Deutsch, ________,Latin",FALSE,2009,2008
+BEST PICTURE,The Remains of the Day,en,The Remains of the Day,England,English,FALSE,1994,1993
+BEST PICTURE,The Remains of the Day,en,The Remains of the Day,USA,English,FALSE,1994,1993
+BEST PICTURE,The Revenant,en,The Revenant,USA,"English, Polski, P______",FALSE,2016,2015
+BEST PICTURE,The Right Stuff,en,The Right Stuff,USA,"English, P______",FALSE,1984,1983
+BEST PICTURE,The Sand Pebbles,en,The Sand Pebbles,USA,"English, ___",FALSE,1967,1966
+BEST PICTURE,The Shawshank Redemption,en,The Shawshank Redemption,USA,English,FALSE,1995,1994
+BEST PICTURE,The Silence of the Lambs,en,The Silence of the Lambs,USA,English,TRUE,1992,1991
+BEST PICTURE,The Sixth Sense,en,The Sixth Sense,USA,"Latin, Español, English",FALSE,2000,1999
+BEST PICTURE,The Social Network,en,The Social Network,USA,English,FALSE,2011,2010
+BEST PICTURE,The Sound of Music,en,The Sound of Music,USA,"English, Français, Italiano",TRUE,1966,1965
+BEST PICTURE,The Sting,en,The Sting,USA,English,TRUE,1974,1973
+BEST PICTURE,The Theory of Everything,en,The Theory of Everything,England,English,FALSE,2015,2014
+BEST PICTURE,The Thin Red Line,en,The Thin Red Line,Canada,"English, P______",FALSE,1999,1998
+BEST PICTURE,The Thin Red Line,en,The Thin Red Line,USA,"English, P______",FALSE,1999,1998
+BEST PICTURE,The Towering Inferno,en,The Towering Inferno,USA,English,FALSE,1975,1974
+BEST PICTURE,The Tree of Life,en,The Tree of Life,USA,English,FALSE,2012,2011
+BEST PICTURE,The Turning Point,en,The Turning Point,USA,English,FALSE,1978,1977
+BEST PICTURE,The Verdict,en,The Verdict,USA,English,FALSE,1983,1982
+BEST PICTURE,The Wolf of Wall Street,en,The Wolf of Wall Street,USA,"Français, English",FALSE,2014,2013
+BEST PICTURE,There Will Be Blood,en,There Will Be Blood,USA,English,FALSE,2008,2007
+BEST PICTURE,Titanic,en,Titanic,Canada,English,TRUE,1998,1997
+BEST PICTURE,Titanic,en,Titanic,USA,English,TRUE,1998,1997
+BEST PICTURE,To Kill a Mockingbird,en,To Kill a Mockingbird,USA,English,FALSE,1963,1962
+BEST PICTURE,Tom Jones,en,Tom Jones,England,English,TRUE,1964,1963
+BEST PICTURE,Tootsie,en,Tootsie,USA,English,FALSE,1983,1982
+BEST PICTURE,Toy Story 3,en,Toy Story 3,USA,"English, Español",FALSE,2011,2010
+BEST PICTURE,Traffic,en,Traffic,Germany,"Español, English",FALSE,2001,2000
+BEST PICTURE,Traffic,en,Traffic,USA,"Español, English",FALSE,2001,2000
+BEST PICTURE,True Grit,en,True Grit,USA,English,FALSE,2011,2010
+BEST PICTURE,Unforgiven,en,Unforgiven,USA,English,TRUE,1993,1992
+BEST PICTURE,Up,en,Up,USA,English,FALSE,2010,2009
+BEST PICTURE,Up in the Air,en,Up in the Air,USA,English,FALSE,2010,2009
+BEST PICTURE,Vice,en,Vice,USA,English,FALSE,2019,2018
+BEST PICTURE,War Horse,en,War Horse,USA,"_______, English",FALSE,2012,2011
+BEST PICTURE,Whiplash,en,Whiplash,USA,English,FALSE,2015,2014
+BEST PICTURE,Who's Afraid of Virginia Woolf?,en,Who's Afraid of Virginia Woolf?,USA,"English,Latin",FALSE,1967,1966
+BEST PICTURE,Winter's Bone,en,Winter's Bone,USA,English,FALSE,2011,2010
+BEST PICTURE,Witness,en,Witness,USA,"Deutsch, English",FALSE,1986,1985
+BEST PICTURE,Working Girl,en,Working Girl,USA,"Deutsch, English",FALSE,1989,1988
+BEST PICTURE,Z,fr,Z,Algeria,"English, Français, P______",FALSE,1970,1969
+BEST PICTURE,Z,fr,Z,France,"English, Français, P______",FALSE,1970,1969
+BEST PICTURE,Zero Dark Thirty,en,Zero Dark Thirty,USA,"English, _______",FALSE,2013,2012
+BEST PICTURE,Zorba the Greek,el,______ ____π__,USA,"English, ________",FALSE,1965,1964
+BEST PICTURE,Zorba the Greek,el,______ ____π__,Greece,"English, ________",FALSE,1965,1964

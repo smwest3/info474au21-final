@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Load d3.js -->
+    <script src="//d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+	<!-- Load d3-annotation -->
+	<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+
     <title>History of Racial Diversity in Academy Award Winners and Nominees</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
@@ -11,8 +21,11 @@
     <div id="bar-chart-div">
         <svg id="bar-chart" width="1240" height="850"></svg>
     </div>
+    <div id="tooltip"></div>
+    <div id="map-div">
+        <svg id="map"></svg>
+    </div>
 </body>
-<script src="//d3js.org/d3.v5.min.js"></script>
 <script src="./bar_chart.js"></script>
 <script src="./map.js"></script>
 <script src="./timeline.js"></script>
