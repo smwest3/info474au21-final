@@ -98,17 +98,18 @@ d3.csv('dataset/mapdata.csv').then(function(d) {
 })
 
 function createMap() {
+  d3.selectAll(".worldmap").remove()
   promises.push(d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"))
   myDataPromises = Promise.all(promises).then(function(worldmap) {
     let mouseOver = function(d) {
       d3.selectAll(".worldmap")
         .transition()
-        .duration(100)
+        .duration(150)
         .style("opacity", .5)
 
       d3.select(this)
         .transition()
-        .duration(100)
+        .duration(150)
         .style("opacity", 1)
         .style("stroke", "black")
 
@@ -124,7 +125,7 @@ function createMap() {
     let mouseLeave = function(d) {
       d3.selectAll(".worldmap")
         .transition()
-        .duration(100)
+        .duration(150)
         .style("opacity", .8)
         .style("stroke", "transparent")
       tooltip
