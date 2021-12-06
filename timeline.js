@@ -1,7 +1,3 @@
-
-
-
-
 d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   //filters data to include only people of color
   var filteredData = dataset.filter(function(d){
