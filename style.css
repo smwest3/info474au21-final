@@ -7,3 +7,33 @@ body {
 #bar-chart .label {
     text-anchor: middle;
 }
+
+/* Timeline */
+
+#information {
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#information > h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#information > p {
+font-size: 18px;
+}
+
+g text.text-timeline {
+    opacity: 0;
+}
+
+g:hover text {
+    opacity: 1;
+}
+
+
+
+
