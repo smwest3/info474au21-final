@@ -4,6 +4,23 @@ body {
 	font-size: 12px;
 }
 
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    padding: 20vh 20vw;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.title-div {
+    padding-top: 5vh;
+    text-align: center;
+}
+
 /* Bar Chart */
 
 #bar-chart .label {
@@ -27,13 +44,13 @@ body {
    align-items: center;
 }
 
-#information > h2 {
+#information > h3 {
     font-size: 24px;
     font-weight: bold;
 }
 
 #information > p {
-font-size: 18px;
+    font-size: 16px;
 }
 
 g text.text-timeline {
@@ -44,9 +61,13 @@ g:hover text {
     opacity: 1;
 }
 
+.circle-timeline:hover {
+    fill: gray;
+}
+
 /* map */
 
 #map-dropdown {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-left: 1000px;
 }

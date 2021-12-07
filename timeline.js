@@ -35,11 +35,15 @@ console.log(filteredData);
     .on('click', function(d) {
       var div = document.getElementById('information')
       div.innerHTML = '';
-     
+
       createElement('h3', d.Name, div);
       createElement('p', d.Gender, div);
       createElement('p', d.Race_Ethnicity, div);
       createElement('p','Won ' + d.Category + ' in ' + d.Year_Ceremony + ' for the film ' + d.Film , div);
+      d3.selectAll('circle')
+        .style('fill', 'white')
+      d3.select(this)
+        .style('fill', 'gray')
     })
     
 
