@@ -141,15 +141,16 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
 
 })
 
-function createElement(element, info, parent){
-  var element = document.createElement(element);
+function createElement(type, info, parent){
+  var element = document.createElement(type);
   element.textContent = info;
   parent.appendChild(element);
-  
+
   if(type == 'a'){
     element.href = info;
     element.target = '_blank';
   }
+  
 }
 
 function pocWinnerInfo(d) {
@@ -159,4 +160,6 @@ function pocWinnerInfo(d) {
     createElement('p', d.Gender, div);
     createElement('p', d.Race_Ethnicity, div);
     createElement('p','Won ' + d.Category + ' in ' + d.Year_Ceremony + ' for the film ' + d.Film , div);
+    createElement('p', 'Read more below:', div);
+    createElement('a', d.Biourl, div);
 }
