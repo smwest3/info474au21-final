@@ -150,8 +150,8 @@ function createMap() {
           return colorScale(d.total);
         })
         .style("opacity", .8)
-      .on("mouseover", mouseOver )
-      .on("mouseleave", mouseLeave )
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
 
     // legend
     var legend_x = width - 200
