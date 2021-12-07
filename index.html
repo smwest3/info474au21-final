@@ -14,14 +14,19 @@
 	<!-- Load d3-annotation -->
 	<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 
+    <!-- Load Waypoints -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+
     <title>History of Racial Diversity in Academy Award Winners and Nominees</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
+
     <div class="title-div">
         <h1>History of Racial Diversity in Academy Award Winners and Nominees</h1>
     </div>
-    <p class="text">
+    <p class="text" id="t0">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -31,13 +36,33 @@
     <div id="bar-chart-div">
         <svg id="bar-chart" width="1240" height="850"></svg>
     </div>
-    <p class="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <div id="timeline-div" class="container">
+    <div class="container">
+        <div class="scrollyText">
+            <p id="t1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="scrollyText">
+            <p id="t2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="scrollyText">
+            <p id="t3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+    <div class="fixed" id="timeline-div">
         <div id="information"> </div>
         <svg id="timeline" width="1240" height="200"></svg>
     </div>

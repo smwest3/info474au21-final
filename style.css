@@ -71,3 +71,56 @@ g:hover text {
     /* padding-top: 100px; */
     padding-left: 1000px;
 }
+
+.container {
+    height: 100%;
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    position: relative;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    left: 50%;
+}
+
+.container div {
+    height: 100%;
+    display: block;
+    margin: 400px 45px;
+}
+
+.container div:first-child {
+    padding-top: 20vh;
+}
+
+.fixed {
+    position: fixed;
+    max-width: 820px;
+    height: 500px;
+    top: 50px;
+    /* z-index: 1; */
+}
+
+#timeline, #information {
+    z-index: 1;
+}
+
+#timeline {
+    padding-left: 50px;
+}
+
+.scrollyText {
+    text-align: justify;
+}
+
+#map-div, #bar-chart-div {
+    z-index: 10;
+    position: relative !important;
+}
+
+#tooltip-bars, #tooltip-map {
+    z-index: 11;
+}
