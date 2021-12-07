@@ -78,14 +78,14 @@ d3.csv('dataset/demographic-data.csv').then(function(dataset) {
             return d['Race_Ethnicity'] == 'White' ? 'img/person_symbol_white.png' : 'img/person_symbol_poc.png'
         })
         .attr('height', chartHeight - scalePeople(5))
-        .attr('width', scaleCategory.bandwidth() / 5)
+        .attr('width', scaleCategory.bandwidth() / 10)
         .on("mouseover", function(d) {
             var x = parseFloat(d3.select(this).node().getBoundingClientRect().x
                      + d3.select(this).node().getBoundingClientRect().width)
             var y = parseFloat(d3.select(this).node().getBoundingClientRect().y + 5)
             d3.select('#tooltip-bars')
-                .style('left', x + 'px')
-                .style('top', y + 'px')
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY) + "px")
                 .append('p')
                 .attr('id', 'nameYear')
                 .attr('dy', '0em')
