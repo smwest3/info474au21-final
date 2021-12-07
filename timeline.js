@@ -57,7 +57,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
       createElement('p', d.Gender, div);
       createElement('p', d.Race_Ethnicity, div);
       createElement('p','Won ' + d.Category + ' in ' + d.Year_Ceremony + ' for the film ' + d.Film , div);
-      createElement('a', 'Read more: ' + d.Biourl, div);
+      createElement('a', d.Biourl, div);
       d3.selectAll('circle')
         .style('fill', 'white')
       d3.select(this)
@@ -87,7 +87,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
       parent.appendChild(element);
 
       if(type == 'a'){
-        element.href = info.split(' ')[2];
+        element.href = info;
         element.target = '_blank';
       }
       
