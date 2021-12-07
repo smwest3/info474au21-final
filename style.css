@@ -27,22 +27,66 @@ body {
    align-items: center;
 }
 
-#information > h2 {
-    font-size: 24px;
+.text-center.header{
+    font: 42px;
+}
+#information > h3 {
+    font-size: 30px;
     font-weight: bold;
 }
 
-#information > p {
-font-size: 18px;
+#information > p,a {
+    font-size: 18px;
+    margin: 5px;
+}
+
+#instructions{
+    font-size: 16px;
+    margin: 50px 0 0 0;
+    width: 75%;
 }
 
 g text.text-timeline {
     opacity: 0;
 }
 
+
+#timeline > g:hover circle  {
+    filter: 
+        invert(0.5)
+        sepia(.5)
+        hue-rotate(200deg)
+        saturate(10)
+        brightness(.5);
+}
 g:hover text {
     opacity: 1;
 }
+
+#timeline-scale{
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-y: hidden;
+    
+}
+
+#timeline-div{
+    margin-top: 100px;
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+@media (min-width: 1200px) {
+    #timeline-scale{
+        overflow: hidden;
+    }
+}
+
+
+
 
 /* map */
 

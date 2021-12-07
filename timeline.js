@@ -1,3 +1,6 @@
+
+//document.querySelector('#timeline').setAttribute('width', intFrameWidth);
+
 d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   //filters data to include only people of color
   var filteredData = dataset.filter(function(d){
@@ -18,9 +21,19 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   var yearScale = d3.scaleLinear()
     .domain([yearScaleMin, yearScaleMax]).range([0,1200])
 
-console.log(filteredData);
+  console.log(filteredData);
 
-  
+  var tooltip = d3.select('#timeline-tooltip').append('div')
+    .attr('class', 'tooltip')
+    .style('opacity', 0)
+    .style('background-color', 'white')
+    .style('width', '100px')
+    .style('height', 'auto')
+    .style('border-radius', '10px')
+    .style('padding', '5px 5px')
+    .style('display', 'flex')
+    .style('justify-content', 'center')
+    .style('position', 'absolute');
 
   var g = d3.select('#timeline').selectAll('g')
     .data(filteredData)
@@ -33,6 +46,10 @@ console.log(filteredData);
     .attr('class', 'circle-timeline')
     .style('fill', 'white')
     .on('click', function(d) {
+
+      d3.selectAll('.circle-timeline').style('fill', 'white');
+      d3.select(this).style('fill', '#AF7AC5')
+
       var div = document.getElementById('information')
       div.innerHTML = '';
      
@@ -40,29 +57,45 @@ console.log(filteredData);
       createElement('p', d.Gender, div);
       createElement('p', d.Race_Ethnicity, div);
       createElement('p','Won ' + d.Category + ' in ' + d.Year_Ceremony + ' for the film ' + d.Film , div);
+      createElement('a', 'Read more: ' + d.Biourl, div);
     })
-    
+    .on('mouseover', function(d){
+      console.log(d3.event.pageX)
+      console.log(d3.event.pageY)
+      tooltip.transition()
+        .duration(200)
+        .style('opacity', .9);
+      tooltip.html(d.Name + ' (' + d.Year_Ceremony + ')')
+        .style('left', (d3.event.pageX - 50) + 'px')
+        .style('top', (d3.event.pageY - 65)  + 'px')
+      
+    })
+    .on("mouseout", function(d) {		
+      tooltip.transition()		
+          .duration(200)		
+          .style("opacity", 0);	
+  });
 
-    g.append('text')
-      .text(function(d) {return d.Name + ', ' + d.Year_Ceremony})
-      .attr('class', 'text-timeline')
-      .attr('y', -10)
-      .attr('x', -50);
 
-
-    function createElement(element, info, parent){
-      var element = document.createElement(element);
+    function createElement(type, info, parent){
+      var element = document.createElement(type);
       element.textContent = info;
       parent.appendChild(element);
+
+      if(type == 'a'){
+        element.href = info.split(' ')[2];
+        element.target = '_blank';
+      }
       
     }
 
+    //create label
     var svg = d3.select('#timeline');
     svg.append('g')
     .attr('class', 'axis')
     .attr('fill', 'black')
     .attr('transform', 'translate(0,90)')
-    .call(d3.axisBottom(yearScale).tickFormat(function(d) {return d;}));
+    .call(d3.axisBottom(yearScale, 20).tickFormat(function(d) {return d;}));
   
 })
 
