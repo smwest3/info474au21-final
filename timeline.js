@@ -145,6 +145,11 @@ function createElement(element, info, parent){
   var element = document.createElement(element);
   element.textContent = info;
   parent.appendChild(element);
+  
+  if(type == 'a'){
+    element.href = info;
+    element.target = '_blank';
+  }
 }
 
 function pocWinnerInfo(d) {
