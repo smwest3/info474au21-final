@@ -39,6 +39,7 @@ svg {
 
 #information {
    height: 200px;
+   width: 50vw;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -57,11 +58,6 @@ svg {
     margin: 5px;
 }
 
-#instructions{
-    font-size: 16px;
-    margin: 50px 0 0 0;
-    width: 75%;
-}
 #information > h3 {
     font-size: 18px;
     font-weight: bold;
@@ -95,14 +91,18 @@ g:hover text {
     
 }
 
-#timeline-div{
-    margin-top: 100px;
-}
+
 .text-center{
     text-align: center;
 }
 
+.scrollyText {
+    text-align: justify;
+}
 
+.scrollyText-visible{
+    visibility: visible !important;
+}
 
 @media (min-width: 1200px) {
     #timeline-scale{
@@ -122,4 +122,56 @@ g:hover text {
 #map-dropdown {
     /* padding-top: 100px; */
     padding-left: 1000px;
+}
+
+.container {
+    height: 100%;
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    position: relative;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    left: 50%;
+}
+
+.container div {
+    height: 100%;
+    display: block;
+    margin: 400px 45px;
+}
+
+.container div:first-child {
+    padding-top: 20vh;
+}
+
+.fixed {
+    position: fixed;
+    
+    height: 500px;
+    top: 50px;
+    /* z-index: 1; */
+}
+
+#timeline, #information {
+    z-index: 1;
+}
+
+#timeline {
+    padding-left: 50px;
+}
+
+
+
+
+#map-div, #bar-chart-div {
+    z-index: 10;
+    position: relative !important;
+}
+
+#tooltip-bars, #tooltip-map {
+    z-index: 11;
 }
