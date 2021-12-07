@@ -12,7 +12,7 @@ var svg = d3.select("#map")
     "translate(" + margin.left + "," + margin.top + ")");
 
 // create a tooltip
-    var tooltip = d3.select("#tooltip")
+    var tooltip = d3.select("#tooltip-map")
       .style("opacity", 0)
       .attr("class", "tooltip")
       .style("background-color", "white")

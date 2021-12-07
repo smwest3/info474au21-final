@@ -4,8 +4,18 @@ body {
 	font-size: 12px;
 }
 
+/* Bar Chart */
+
 #bar-chart .label {
     text-anchor: middle;
+}
+
+.tooltip.hidden {
+    display: none;
+}
+
+.tooltip p {
+    margin: 0;
 }
 
 /* Timeline */
