@@ -153,6 +153,7 @@ g:hover text {
     z-index: 999 !important;
 }
 
+
 @media (min-width: 1200px) {
     #timeline-scale{
         overflow: hidden;
