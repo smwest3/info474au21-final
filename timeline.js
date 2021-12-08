@@ -28,6 +28,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
         d3.select('#timeline').selectAll('g').remove();
         d3.select('#information').selectAll('h3').remove();
         d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
       } else {
         createCircles(filteredData);
         pocWinnerInfo(filteredData[0])
@@ -61,6 +62,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
       } else {
         d3.select('#information').selectAll('h3').remove()
         d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
         document.getElementById('circle-4').style.fill = 'white';
       }
     }, offset: "40%"
@@ -73,10 +75,11 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
         d3.select('#timeline').selectAll('g').remove();
         d3.select('#information').selectAll('h3').remove();
         d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
       } else {
         createCircles(filteredData);
       }
-    }, offset: "-20%"
+    }, offset: "0%"
   });
 
   function createCircles(fd) {
@@ -117,7 +120,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
             .style('opacity', .9);
           tooltip.html(d.Name + ' (' + d.Year_Ceremony + ')')
             .style('left', (d3.event.pageX - 50) + 'px')
-            .style('top', (225)  + 'px')
+            .style('top', (390)  + 'px')
           
         })
         .on("mouseout", function(d) {		

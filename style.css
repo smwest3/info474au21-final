@@ -21,6 +21,10 @@ svg {
     text-align: center;
 }
 
+.subtitle {
+    padding-top: 150px;
+}
+
 /* Bar Chart */
 
 #bar-chart .label {
@@ -36,6 +40,51 @@ svg {
 }
 
 /* Timeline */
+
+
+.container {
+    height: 100%;
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    position: relative;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    left: 50%;
+}
+
+.container div {
+    height: 100%;
+    display: block;
+    margin: 400px 45px;
+}
+
+.container div:first-child {
+    margin-top: 100px;
+}
+
+.fixed {
+    position: fixed;
+    
+    height: 500px;
+    top: 50px;
+    /* z-index: 1; */
+}
+
+#timeline, #information {
+    z-index: 1;
+}
+
+#timeline {
+    padding-left: 30px;
+}
+
+#timeline-div {
+    padding-top: 170px;
+}
 
 #information {
    height: 200px;
@@ -71,7 +120,6 @@ g text.text-timeline {
     opacity: 0;
 }
 
-
 #timeline > g:hover circle  {
     filter: 
         invert(0.5)
@@ -88,9 +136,8 @@ g:hover text {
     margin: 0 auto;
     overflow: scroll;
     overflow-y: hidden;
-    
+    z-index: -1 !important;
 }
-
 
 .text-center{
     text-align: center;
@@ -100,8 +147,10 @@ g:hover text {
     text-align: justify;
 }
 
-.scrollyText-visible{
-    visibility: visible !important;
+.background-rectangle{
+    position: relative;
+    background-color: #cfd5e6;
+    z-index: 999 !important;
 }
 
 @media (min-width: 1200px) {
@@ -110,9 +159,6 @@ g:hover text {
     }
 }
 
-
-
-
 .circle-timeline:hover {
     fill: gray;
 }
@@ -120,52 +166,8 @@ g:hover text {
 /* map */
 
 #map-dropdown {
-    /* padding-top: 100px; */
     padding-left: 1000px;
 }
-
-.container {
-    height: 100%;
-    max-width: 600px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    /* position: absolute; */
-    position: relative;
-    height: 100%;
-    font-size: 16px;
-    line-height: 1.5;
-    left: 50%;
-}
-
-.container div {
-    height: 100%;
-    display: block;
-    margin: 400px 45px;
-}
-
-.container div:first-child {
-    padding-top: 20vh;
-}
-
-.fixed {
-    position: fixed;
-    
-    height: 500px;
-    top: 50px;
-    /* z-index: 1; */
-}
-
-#timeline, #information {
-    z-index: 1;
-}
-
-#timeline {
-    padding-left: 50px;
-}
-
-
-
 
 #map-div, #bar-chart-div {
     z-index: 10;
