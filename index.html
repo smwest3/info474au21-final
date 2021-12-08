@@ -32,10 +32,14 @@
         </div>
     </div>
     <p class="text" id="t0">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        In 2016, the campaign #OscarsSoWhite was created to call out the lack of diversity in nominations for the 
+        Academy Awards, Oscars. At that time when the the digital activism went viral, the Academy revealed that 
+        of its 6000 members, 93 percent were white and 76 percent were men, while the median age was 63.
+        <br/><br/>
+        <b>
+            The purpose of our information visualizations is to show the racial diversity (or lack thereof) of Academy 
+            Award nominees and winners, especially focusing on underrepresented minorities and foreign nominees over time.
+        </b>
     </p>
     <h2 class='text-center subtitle'>Academy Award Winners (1927-2020)</h2>
     <div id="tooltip-bars"></div>
@@ -93,6 +97,20 @@
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h2 class="source">Sources</h2>
+    <p class="source-text">
+        We used the <a href="https://www.kaggle.com/unanimad/the-oscar-award" target="_blank" rel="noreferrer">Oscar Award, 
+        1927-2020 dataset</a> and the <a href="https://www.kaggle.com/rounakbanik/the-movies-dataset"
+        target="_blank" rel="noreferrer">Movies Dataset</a> to get background of the nominees. The datasets are combined and
+        cleaned to focus on racial diversity for data analysis.
+        <br/><br/>
+        The Oscar Award dataset (7 columns and 10396 rows) contains all of the nominations on the Academy Awards, Oscar from 1927 to 2020. The items 
+        include released years (int), the year of ceremony (int), the number of ceremony (int), nomination categories (string), 
+        nominees (string), film titles (string), and whether they win or not (boolean).
+        <br/><br/>
+        The Movies dataset (43 columns and 45467 rows) contains metadata on over 45,000 movies, such as cast and crew information (array), revenue (int), 
+        ratings (int), and spoken languages (string).
     </p>
 </body>
 <script src="./bar_chart.js"></script>
