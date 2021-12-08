@@ -28,6 +28,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
         d3.select('#timeline').selectAll('g').remove();
         d3.select('#information').selectAll('h3').remove();
         d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
       } else {
         createCircles(filteredData);
         pocWinnerInfo(filteredData[0])
@@ -61,6 +62,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
       } else {
         d3.select('#information').selectAll('h3').remove()
         d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
         document.getElementById('circle-4').style.fill = 'white';
       }
     }, offset: "40%"
@@ -73,6 +75,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
         d3.select('#timeline').selectAll('g').remove();
         d3.select('#information').selectAll('h3').remove();
         d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
       } else {
         createCircles(filteredData);
       }

@@ -88,6 +88,7 @@ g:hover text {
     margin: 0 auto;
     overflow: scroll;
     overflow-y: hidden;
+    z-index: -1 !important;
     
 }
 
@@ -100,9 +101,12 @@ g:hover text {
     text-align: justify;
 }
 
-.scrollyText-visible{
-    visibility: visible !important;
+.background-rectangle{
+    position: relative;
+    background-color: #cfd5e6;
+    z-index: 999 !important;
 }
+
 
 @media (min-width: 1200px) {
     #timeline-scale{
@@ -162,6 +166,7 @@ g:hover text {
 
 #timeline {
     padding-left: 50px;
+   
 }
 
 
