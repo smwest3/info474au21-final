@@ -45,8 +45,10 @@ d3.csv('dataset/demographic-data.csv').then(function(dataset) {
             return a['Race_Ethnicity'] == 'White' && b['Race_Ethnicity'] == 'White' ? 0 : a['Race_Ethnicity'] != 'White' ? 1 : -1
         })
     })
+
+    
     var scaleCategory = d3.scaleBand()
-                    .domain(nested.map(category => { return category.key }))
+                    .domain(nested.map(category => {return category.key }))
                     .range([0, chartWidth])
     chartG.append('g')
         .attr('class', 'x axis')
@@ -63,8 +65,9 @@ d3.csv('dataset/demographic-data.csv').then(function(dataset) {
     barsEnter.merge(bars).attr('transform', function(_, i) {
         return `translate(${scaleCategory.bandwidth() / 10}, 0)`
     })
+    
     barsEnter.selectAll('.symbol')
-        .data(function(d) { return d.values })
+        .data(function(d) {return d.values })
         .enter()
         .append('image')
         .attr('class', 'symbol')

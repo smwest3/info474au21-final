@@ -1,5 +1,4 @@
 
-//document.querySelector('#timeline').setAttribute('width', intFrameWidth);
 
 d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   //filters data to include only people of color
@@ -44,17 +43,36 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
       if (direction == 'up') {
         pocWinnerInfo(filteredData[0])
         document.getElementById('circle-0').style.fill = 'gray';
+        document.getElementById('circle-1').style.fill = 'white';
         document.getElementById('circle-4').style.fill = 'white';
       } else {
-        pocWinnerInfo(filteredData[4])
+        pocWinnerInfo(filteredData[1])
         document.getElementById('circle-0').style.fill = 'white';
-        document.getElementById('circle-4').style.fill = 'gray';
+        document.getElementById('circle-1').style.fill = 'gray';
+        document.getElementById('circle-4').style.fill = 'white';
       }
     }, offset: "40%"
   });
 
   var circleEnterWayPoint3 = new Waypoint({
     element: document.getElementById('t3'),
+    handler: function(direction) {
+      if (direction == 'up') {
+        pocWinnerInfo(filteredData[1])
+        document.getElementById('circle-0').style.fill = 'white';
+        document.getElementById('circle-1').style.fill = 'gray';
+        document.getElementById('circle-4').style.fill = 'white';
+      } else {
+        pocWinnerInfo(filteredData[4])
+        document.getElementById('circle-0').style.fill = 'white';
+        document.getElementById('circle-1').style.fill = 'white';
+        document.getElementById('circle-4').style.fill = 'gray';
+      }
+    }, offset: "40%"
+  });
+
+  var circleEnterWayPoint4 = new Waypoint({
+    element: document.getElementById('t4'),
     handler: function(direction) {
       if (direction == 'up') {
         pocWinnerInfo(filteredData[4])
@@ -69,7 +87,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   });
 
   var circleEnterWayPoint4 = new Waypoint({
-    element: document.getElementById('t3'),
+    element: document.getElementById('t4'),
     handler: function(direction) {
       if (direction == 'down') {
         d3.select('#timeline').selectAll('g').remove();
@@ -88,7 +106,7 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
     .attr('class', 'tooltip')
     .style('opacity', 0)
     .style('background-color', 'white')
-    .style('width', '100px')
+    .style('width', '150px')
     .style('height', 'auto')
     .style('border-radius', '10px')
     .style('padding', '5px 5px')
@@ -118,9 +136,9 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
           tooltip.transition()
             .duration(200)
             .style('opacity', .9);
-          tooltip.html(d.Name + ' (' + d.Year_Ceremony + ')')
+          tooltip.html(d.Name + ' (' + d.Year_Ceremony  + ')')
             .style('left', (d3.event.pageX - 50) + 'px')
-            .style('top', (390)  + 'px')
+            .style('top', (450)  + 'px')
           
         })
         .on("mouseout", function(d) {		
