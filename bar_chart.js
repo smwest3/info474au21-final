@@ -26,14 +26,6 @@ d3.select('#tooltip-bars')
         .style('border-radius', '10px')
         .style('opacity', 0)
 
-// barSVG.append('text')
-//     .attr('class', 'title')
-//     .attr('transform', `translate(${chartWidth / 2 + padding.l}, ${padding.t})`)
-//     .text('Academy Award Winners (1927-2020)')
-//     .style('font-size', 'large')
-//     .style('font-weight', 'bold')
-//     .style('text-anchor', 'middle')
-
 d3.csv('dataset/demographic-data.csv').then(function(dataset) {
     var nested = d3.nest()
             .key(function(d) {
@@ -45,7 +37,6 @@ d3.csv('dataset/demographic-data.csv').then(function(dataset) {
             return a['Race_Ethnicity'] == 'White' && b['Race_Ethnicity'] == 'White' ? 0 : a['Race_Ethnicity'] != 'White' ? 1 : -1
         })
     })
-
     
     var scaleCategory = d3.scaleBand()
                     .domain(nested.map(category => {return category.key }))

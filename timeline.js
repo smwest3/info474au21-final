@@ -101,7 +101,13 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   });
 
   function createCircles(fd) {
-
+    console.log(fd)
+    var byDate = d3.nest()
+          .key(function(d) {
+            return d['Year_Ceremony']
+          })
+          .entries(fd)
+    console.log(byDate)
     var tooltip = d3.select('#timeline-tooltip').append('div')
     .attr('class', 'tooltip')
     .style('opacity', 0)
@@ -115,13 +121,20 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
     .style('position', 'absolute');
 
     var g = d3.select('#timeline').selectAll('g')
-      .data(fd)
+      .data(byDate)
       .enter()
       .append('g')
-      .attr('transform', function(d){return 'translate(' + scaleYear(d.Year_Ceremony) + ',' + 80 + ')'})
-      g.append('circle')
+      g.selectAll('circle')
+      .data(function(d){ return d.values})
+      .enter()
+      .append('circle')
+      .attr('transform', function(d, i) {
+        var x = scaleYear(d['Year_Ceremony'])
+        var y = (-12 * i) + 80
+        return `translate(${x}, ${y})`
+      })
       .attr('r', 6)
-      .attr('id', function(d, i) { 
+      .attr('id', function(_, i) { 
         return 'circle-' + i})
       .attr('class', 'circle-timeline')
       .style('fill', 'white')
