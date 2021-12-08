@@ -242,3 +242,7 @@ g:hover text {
 #tooltip-bars, #tooltip-map {
     z-index: 11;
 }
+
+#tooltip-map {
+    margin-top: 50px;
+}
