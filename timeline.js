@@ -1,4 +1,7 @@
-
+ // declare empty group
+ g = '';
+ // declare reference for styling
+ selectedCircle = '';
 
 d3.csv('dataset/demographic-data.csv').then(function (dataset) {
   //filters data to include only people of color
@@ -28,28 +31,35 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
         d3.select('#information').selectAll('h3').remove();
         d3.select('#information').selectAll('p').remove();
         d3.select('#information').selectAll('a').remove();
+        visibility('t1', 'hidden')
       } else {
         createCircles(filteredData);
         pocWinnerInfo(filteredData[0])
-        document.getElementById('circle-0').style.fill = 'gray';
+        document.getElementById('circle-1').style.fill = 'gray';
+        visibility('t1', 'visible')
+        visibility('t2', 'hidden')
+        visibility('t3', 'hidden')
+        visibility('t4', 'hidden')
+        toggleInteraction('disabled')
       }
     }, offset: "40%"
   });
-
 
   var circleEnterWayPoint2 = new Waypoint({
     element: document.getElementById('t2'),
     handler: function(direction) {
       if (direction == 'up') {
         pocWinnerInfo(filteredData[0])
-        document.getElementById('circle-0').style.fill = 'gray';
-        document.getElementById('circle-1').style.fill = 'white';
-        document.getElementById('circle-4').style.fill = 'white';
+        document.getElementById('circle-1').style.fill = 'gray';
+        document.getElementById('circle-2').style.fill = 'white';
+        document.getElementById('circle-5').style.fill = 'white';
+        visibility('t2', 'hidden')
+     
       } else {
         pocWinnerInfo(filteredData[1])
-        document.getElementById('circle-0').style.fill = 'white';
-        document.getElementById('circle-1').style.fill = 'gray';
-        document.getElementById('circle-4').style.fill = 'white';
+        document.getElementById('circle-1').style.fill = 'white';
+        document.getElementById('circle-2').style.fill = 'gray';
+        visibility('t2', 'visible')
       }
     }, offset: "40%"
   });
@@ -59,29 +69,17 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
     handler: function(direction) {
       if (direction == 'up') {
         pocWinnerInfo(filteredData[1])
-        document.getElementById('circle-0').style.fill = 'white';
-        document.getElementById('circle-1').style.fill = 'gray';
-        document.getElementById('circle-4').style.fill = 'white';
-      } else {
-        pocWinnerInfo(filteredData[4])
-        document.getElementById('circle-0').style.fill = 'white';
         document.getElementById('circle-1').style.fill = 'white';
-        document.getElementById('circle-4').style.fill = 'gray';
-      }
-    }, offset: "40%"
-  });
-
-  var circleEnterWayPoint4 = new Waypoint({
-    element: document.getElementById('t4'),
-    handler: function(direction) {
-      if (direction == 'up') {
-        pocWinnerInfo(filteredData[4])
-        document.getElementById('circle-4').style.fill = 'gray';
+        document.getElementById('circle-2').style.fill = 'gray';
+        document.getElementById('circle-5').style.fill = 'white';
+        visibility('t3', 'hidden')
+     
       } else {
-        d3.select('#information').selectAll('h3').remove()
-        d3.select('#information').selectAll('p').remove();
-        d3.select('#information').selectAll('a').remove();
-        document.getElementById('circle-4').style.fill = 'white';
+        pocWinnerInfo(filteredData[4])
+        document.getElementById('circle-1').style.fill = 'white';
+        document.getElementById('circle-2').style.fill = 'white';
+        document.getElementById('circle-5').style.fill = 'gray';
+        visibility('t3', 'visible')
       }
     }, offset: "40%"
   });
@@ -90,41 +88,83 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
     element: document.getElementById('t4'),
     handler: function(direction) {
       if (direction == 'down') {
-        d3.select('#timeline').selectAll('g').remove();
+        document.getElementById('circle-5').style.fill = 'white';
+        //d3.select('#timeline').selectAll('g').remove();
         d3.select('#information').selectAll('h3').remove();
         d3.select('#information').selectAll('p').remove();
         d3.select('#information').selectAll('a').remove();
+        visibility('t4', 'visible')
+        toggleInteraction('enabled')
+        
+        
       } else {
-        createCircles(filteredData);
+        d3.select('#information').selectAll('h3').remove();
+        d3.select('#information').selectAll('p').remove();
+        d3.select('#information').selectAll('a').remove();
+        pocWinnerInfo(filteredData[4])
+        document.getElementById('circle-5').style.fill = 'gray';
+        if(selectedCircle != ''){
+          document.getElementById(selectedCircle).style.fill = 'white';
+        }
+        visibility('t4', 'hidden')
+        toggleInteraction('disabled')
       }
-    }, offset: "0%"
+    }, offset: "40%"
   });
 
+  new Waypoint({
+    element: document.getElementById('map-section'),
+    handler: function(direction) {
+      if (direction == 'down'){
+        if(selectedCircle != ''){
+          d3.select('#information').selectAll('h3').remove();
+          d3.select('#information').selectAll('p').remove();
+          d3.select('#information').selectAll('a').remove();
+        }
+        d3.select('#timeline').selectAll('g').remove();
+        d3.select('#timeline-tooltip').style('visibility', 'hidden');
+      }else{
+        createCircles(filteredData);
+        d3.select('.tooltip').remove();
+        d3.select('#timeline-tooltip').style('visibility', 'visible');
+      }
+    }, offset: '50%'
+  })
+
+  function toggleInteraction(state){
+    if(state == 'disabled'){
+      g.selectAll('circle')
+        .attr('class', 'unclickable')
+        console.log('unclickable now')
+        //.removeattr('clickable');
+    }else if(state == 'enabled'){
+      console.log('it should be clickable now')
+      g.selectAll('circle')
+        .attr('class', 'clickable')
+        //.removeattr('unclickable');
+    }
+  }
+
+  function visibility(id, state){
+    document.getElementById(id).style.visibility = state;
+  }
+
   function createCircles(fd) {
-    console.log(fd)
+    //console.log(fd)
     var byDate = d3.nest()
           .key(function(d) {
             return d['Year_Ceremony']
           })
           .entries(fd)
-    console.log(byDate)
-    var tooltip = d3.select('#timeline-tooltip').append('div')
-    .attr('class', 'tooltip')
-    .style('opacity', 0)
-    .style('background-color', 'white')
-    .style('width', '150px')
-    .style('height', 'auto')
-    .style('border-radius', '10px')
-    .style('padding', '5px 5px')
-    .style('display', 'flex')
-    .style('justify-content', 'center')
-    .style('position', 'absolute');
-
-    var g = d3.select('#timeline').selectAll('g')
+    //console.log(byDate)
+   
+    var counter = 0;
+    g = d3.select('#timeline').selectAll('g')
       .data(byDate)
       .enter()
-      .append('g')
-      g.selectAll('circle')
+      .append('g');
+    console.log(g);
+    g.selectAll('circle')
       .data(function(d){ return d.values})
       .enter()
       .append('circle')
@@ -134,11 +174,14 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
         return `translate(${x}, ${y})`
       })
       .attr('r', 6)
-      .attr('id', function(_, i) { 
-        return 'circle-' + i})
+      .attr('id', function() { 
+        counter++;
+        return 'circle-' + counter;
+      })
       .attr('class', 'circle-timeline')
       .style('fill', 'white')
       .on('click', function(d) {
+        selectedCircle = this.id;
         pocWinnerInfo(d)
         d3.selectAll('circle')
           .style('fill', 'white')
@@ -158,11 +201,25 @@ d3.csv('dataset/demographic-data.csv').then(function (dataset) {
           tooltip.transition()		
               .duration(200)		
               .style("opacity", 0);	
-      });
-      
-    
-       
+        });
 
+   
+      
+    // create tooltip //
+      var tooltip = d3.select('#timeline-tooltip')
+        .append('div')
+        .attr('class', 'tooltip')
+        .style('opacity', 0)
+        .style('background-color', 'white')
+        .style('width', '150px')
+        .style('height', 'auto')
+        .style('border-radius', '10px')
+        .style('padding', '5px 5px')
+        .style('display', 'flex')
+        .style('justify-content', 'center')
+        .style('position', 'absolute');  
+
+      // create axis // 
       var svg = d3.select('#timeline');
         svg.append('g')
         .attr('class', 'axis')

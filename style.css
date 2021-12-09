@@ -88,7 +88,6 @@ h2 {
 
 /* Timeline */
 
-
 .container {
     height: 100%;
     max-width: 600px;
@@ -168,7 +167,7 @@ g text.text-timeline {
     opacity: 0;
 }
 
-#timeline > g:hover circle  {
+#timeline > g .clickable:hover  {
     filter: 
         invert(0.5)
         sepia(.5)
@@ -176,6 +175,15 @@ g text.text-timeline {
         saturate(10)
         brightness(.5);
 }
+
+#timeline > g .unclickable {
+    pointer-events: none;
+}
+
+#timeline > g .clickable {
+    pointer-events: auto;
+}
+
 g:hover text {
     opacity: 1;
 }
